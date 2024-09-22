@@ -8,4 +8,8 @@ const inventory = [
 ];
 //that is the inventory list
 
+//task 2
+
+let orders = []
+//this is my empty array
 
