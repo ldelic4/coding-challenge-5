@@ -49,5 +49,13 @@ console.log("total price $$'calculateordertotal')
 function completeorder (customerName)[{
     const order=order.find((order)=>order.name===order)}];
     if (order.status="completed"? "order status complete": "error");
-    
+
+
+//task 6
+function checkPendingOrders (){
+    orders.forEach(order=>
+        if (order.status='pending'){
+            return ('pending');
+        }
+    )
     
