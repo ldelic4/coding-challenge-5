@@ -45,4 +45,9 @@ function calculateordertotal (order){
 }
 console.log("total price $$'calculateordertotal')
 
+//task 5
+function completeorder (customerName)[{
+    const order=order.find((order)=>order.name===order)}];
+    if (order.status="completed"? "order status complete": "error");
+    
     
