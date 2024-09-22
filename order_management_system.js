@@ -13,3 +13,29 @@ const inventory = [
 let orders = []
 //this is my empty array
 
+//task 3
+function placeorder(customerName:any, items:any);
+for(let quantity in items){
+    inventory.find((item) => item.name===item);
+    if(item>1){
+        console.log('This item is low stock.');
+    }
+    if(item<1){
+        ('This item is in stock.');
+    }
+    //showing stock status for items
+
+    for(let quantity in items){
+        inventory.find((item) => item.name===item); 
+        (item.quantity-=item.stock);
+}
+//making the order 
+orders.push({
+    customerName: customerName,
+    items:[{Name:name, quantity: quantity}]
+    status:"pending"
+});
+}
+console.log(placeorder("Leila Johnson",{name:Espresso, quantity:1})
+)
+
