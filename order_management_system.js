@@ -39,3 +39,10 @@ orders.push({
 console.log(placeorder("Leila Johnson",{name:Espresso, quantity:1})
 )
 
+//task 4
+function calculateordertotal (order){
+    (inventory.price+=order.price)
+}
+console.log("total price $$'calculateordertotal')
+
+    
